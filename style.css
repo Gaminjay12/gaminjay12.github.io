@@ -2,3 +2,10 @@
 font-family: arial, verdana;
 text-align: center
 }
+a {
+    font-family: verdana;
+    color: black
+}
+button {
+    background-color: white;
+}
