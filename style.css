@@ -3,7 +3,7 @@ font-family: arial, verdana;
 text-align: center
 }
 .btn1 {
-    border-width: 5;
+    border-width: 50;
     border-radius: 10;
     background-color: blue;
     position: absolute;
