@@ -21,4 +21,6 @@ text-align: center
     top: 40%;
     left: 50%;
     transform:translate(-40%, -50%);
+    width: 20;
+    height: 30;
 }
