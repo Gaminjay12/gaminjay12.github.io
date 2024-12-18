@@ -21,6 +21,6 @@ text-align: center
     top: 40%;
     left: 50%;
     transform:translate(-40%, -50%);
-    width: fit-content;
+    width: 20px;
     height: 30;
 }
