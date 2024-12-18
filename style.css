@@ -14,13 +14,13 @@ text-align: center
     height: 20;
 }
 .Eaglercraft_Download {
-    background-color: red;
-    border-radius: 100;
+    background-color: orange;
+    border-radius: 10;
     border-width: 5;
     position:absolute;
     top: 40%;
     left: 50%;
     transform:translate(-40%, -50%);
-    width: 20px;
+    width: 300;
     height: 30;
 }
