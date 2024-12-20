@@ -1,0 +1,42 @@
+
+    .box {
+        background: orange;
+        padding: 20px;
+        border: 20px solid;
+        border-radius: 40px;
+        width: 50px;
+        height: 20px;
+    }
+
+    a {
+        font-family: Verdana;
+        text-align: center;
+    }
+
+    .one {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery button {
+        background-color: orange;
+        border: none;
+        padding: 10px 20px;
+        color: orange;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    html {
+        background-color: #333;
+        color: #fff;
+    }
