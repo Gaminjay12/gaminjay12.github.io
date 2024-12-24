@@ -1,33 +1,47 @@
+.box {
+    background: orange;
+    padding: 20px;
+    border: 20px solid;
+    border-radius: 40px;
+    width: 50px;
+    height: 20px;
+}
 
-    .box {
-        background: orange;
-        padding: 20px;
-        border: 20px solid;
-        border-radius: 40px;
-        width: 50px;
-        height: 20px;
-    }
+a {
+    font-family: Verdana;
+    text-align: center;
+}
 
-    a {
-        font-family: Verdana;
-        text-align: center;
-    }
+.one {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
 
-    .one {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-40%, -50%);
-    }
+.gallery {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    background-color: orange;
+    width: 100px;
+    /* Assuming you wanted to set a width */
+}
 
-    .gallery {
-        position:absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-40%, -50%);
-    }
+html {
+    background-color: #333;
+    color: #fff;
+}
 
-    html {
-        background-color: #333;
-        color: #fff;
-    }
+h {
+    font-family: Verdana;
+    color: black;
+}
+
+.idiots-login {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 0);
+}
