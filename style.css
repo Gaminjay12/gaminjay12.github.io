@@ -41,7 +41,8 @@ h {
 
 .idiots-login {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(0, 0);
+    top: 90%;
+    left: 80%;
+    transform: translate(-90%, -80%);
+
 }
