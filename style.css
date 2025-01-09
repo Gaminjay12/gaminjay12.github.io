@@ -46,3 +46,13 @@ h {
     transform: translate(-90%, -80%);
 
 }
+
+button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    background-color: orange;
+    width: 100px;
+    /* Assuming you wanted to set a width */
+}
