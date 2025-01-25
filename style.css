@@ -1,5 +1,5 @@
 .box {
-    background: orange;
+    background: blue;
     padding: 20px;
     border: 20px solid;
     border-radius: 40px;
@@ -10,6 +10,7 @@
 a {
     font-family: Verdana;
     text-align: center;
+    color: white
 }
 
 .one {
@@ -24,19 +25,19 @@ a {
     top: 40%;
     left: 50%;
     transform: translate(-40%, -50%);
-    background-color: orange;
+    background-color: blue;
     width: 100px;
     /* Assuming you wanted to set a width */
 }
 
 html {
-    background-color: #333;
+    background-color: #222222;
     color: #fff;
 }
 
 h {
     font-family: Verdana;
-    color: black;
+    color: white;
 }
 
 .idiots-login {
@@ -48,11 +49,7 @@ h {
 }
 
 button {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-40%, -50%);
-    background-color: orange;
+    background-color: blue;
     width: 100px;
     /* Assuming you wanted to set a width */
 }
