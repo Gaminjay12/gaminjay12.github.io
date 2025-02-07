@@ -1,0 +1,76 @@
+.button {
+	width:200px;
+	height:40px;
+	padding:5;
+	border-radius:25px;
+	background:blue;
+	border-width:3px;
+	border-style:solid;
+	animation-name:unhover-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	top:60%
+}
+
+.button-home1 {
+	width:150px;
+	height:19px;
+	top:60%;
+	left:15%;
+	border:solid;
+	border-width:2px;
+	border-color:black;
+	border-radius:20px;
+	background:transparent;
+	padding:5px;
+	position:absolute;
+}
+
+a {
+	color:black;
+	font-family:verdana;
+	text-align: center;
+}
+
+a {
+	color:white;
+	text-align:center;
+	display:block
+}
+html {
+	background:#141414
+}
+
+@keyframes hover-fade {
+	from {background:blue;}
+	to {background:#57b9ff;}
+}
+
+.button:hover {
+	animation-name:hover-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes unhover-fade {
+	from {background:#57b9ff;}
+	to {background:blue}
+}
+
+.button a {
+	width:200px;
+	height:40px;
+	display:inline-block;
+}
+
+@keyframes home-fadein {
+	from {background:transparent}
+	to {background:blue}
+}
+
+.button-home1:hover {
+	animation-name:home-fadein;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
