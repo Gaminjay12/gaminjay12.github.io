@@ -74,3 +74,10 @@ html {
 	animation-duration:0.3s;
 	animation-fill-mode:forwards;
 }
+
+.title {
+	position:absolute;
+	top:30%;
+	left:20%;
+	color:white;
+}
