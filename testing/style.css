@@ -85,4 +85,9 @@ html {
 	color:white;
 }
 
-@keyframes
+
+
+img {
+	border:2px solid black;
+	border-radius:20px;
+}
