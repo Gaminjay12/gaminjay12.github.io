@@ -30,13 +30,17 @@
 	animation-fill-mode:forwards
 }
 
+.button-home1 a {
+	display:block
+}
+
 a {
 	color:black;
 	font-family:verdana;
 	text-align: center;
 }
 
-a {
+aa {
 	color:white;
 	text-align:center;
 	display:block
@@ -79,15 +83,32 @@ html {
 }
 
 .title {
-	position:absolute;
-	top:30%;
-	left:20%;
+	font-size:20px;
 	color:white;
 }
 
-
-
-img {
+.game {
 	border:2px solid black;
 	border-radius:20px;
+	width:60;
+	height:60;
+	animation-name:game-unfade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes game-fade {
+	from {width:60;height:60}
+	to {width:70;height:70;}
+}
+
+.game:hover {
+	animation-name:game-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards
+}
+
+@keyframes game-unfade {
+	from {width:70;height:70;}
+	to {width:60;height:60}
 }
