@@ -112,3 +112,8 @@ html {
 	from {width:70;height:70;}
 	to {width:60;height:60}
 }
+
+.game-a {
+	position:absolute;
+	top:30;
+}
