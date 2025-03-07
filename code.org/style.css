@@ -1,0 +1,65 @@
+h2 {
+  font-family: verdana;
+  color:white
+}
+h3 {
+  font-family: verdana;
+  color:white
+}
+
+p {
+  font-family: verdana;
+  color:white
+}
+
+li {
+  font-family: verdana;
+  color:white
+}
+
+h4 {
+  font-family: verdana;
+  color:white
+}
+
+h1 {
+  font-family: cursive;
+  font-style: italic;
+  color:white
+}
+
+h {
+  font-family: verdana;
+  color:white
+}
+
+img {
+  border-radius:30px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+@keyframes a-select {
+  from {font-size: 16px}
+  to {font-size: 28px}
+}
+
+@keyframes a-unselect {
+  from {font-size: 28px}
+  to {font-size: 16px}
+}
+
+a {
+  animation-name: a-unselect;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  font-family: verdana;
+}
+
+a:hover {
+  animation-name: a-select;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  font-family: verdana
+}
