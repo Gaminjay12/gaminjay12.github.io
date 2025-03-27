@@ -1,55 +1,119 @@
-.box {
-    background: blue;
-    padding: 20px;
-    border: 20px solid;
-    border-radius: 40px;
-    width: 50px;
-    height: 20px;
+.button {
+	width:200px;
+	height:40px;
+	padding:5;
+	border-radius:25px;
+	background:blue;
+	border-width:3px;
+	border-style:solid;
+	animation-name:unhover-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+	position:absolute;
+	top:60%
+}
+
+.button-home1 {
+	width:150px;
+	height:19px;
+	top:60%;
+	left:15%;
+	border:solid;
+	border-width:2px;
+	border-color:black;
+	border-radius:20px;
+	background:transparent;
+	padding:5px;
+	position:absolute;
+	animation-name:unhover-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards
+}
+
+.button-home1 a {
+	display:block
 }
 
 a {
-    font-family: Verdana;
-    text-align: center;
-    color: white
+	color:black;
+	font-family:verdana;
+	text-align: center;
 }
 
-.one {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-40%, -50%);
+aa {
+	color:white;
+	text-align:center;
+	display:block
 }
-
-.gallery {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-40%, -50%);
-    background-color: blue;
-    width: 100px;
-    /* Assuming you wanted to set a width */
-}
-
 html {
-    background-color: #222222;
-    color: #fff;
+	background:gray
 }
 
-h {
-    font-family: Verdana;
-    color: white;
+@keyframes hover-fade {
+	from {background:blue;}
+	to {background:#57b9ff;}
 }
 
-.idiots-login {
-    position: absolute;
-    top: 90%;
-    left: 80%;
-    transform: translate(-90%, -80%);
-
+.button:hover {
+	animation-name:hover-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
 }
 
-button {
-    background-color: blue;
-    width: 100px;
-    /* Assuming you wanted to set a width */
+@keyframes unhover-fade {
+	from {background:blue;}
+	to {background:transparent}
+}
+
+.button a {
+	width:200px;
+	height:40px;
+	display:inline-block;
+}
+
+@keyframes home-fadein {
+	from {background:transparent}
+	to {background:blue}
+}
+
+.button-home1:hover {
+	animation-name:home-fadein;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+
+.title {
+	font-size:20px;
+	color:white;
+}
+
+.game {
+	border:2px solid black;
+	border-radius:10px;
+	width:60;
+	height:60;
+	animation-name:game-unfade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes game-fade {
+	from {width:60;height:60}
+	to {width:70;height:70;}
+}
+
+.game:hover {
+	animation-name:game-fade;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards
+}
+
+@keyframes game-unfade {
+	from {width:70;height:70;}
+	to {width:60;height:60}
+}
+
+.game-a {
+	position:absolute;
+	top:30;
 }
