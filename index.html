@@ -4,9 +4,13 @@ function test() {
   alert('Test!');
 }
 function darkMode() {
-  document.getElementById('yes').style.backgroundColor = 'black';
+  document.getElementById('yes').style.backgroundColor = 'darkgray';
+}
+function lightMode() {
+  document.getElementById('yes').style.backgroundColor = 'white';
 }
 </script>
 <button onclick="test()">Click here!</button>
 <button onclick="darkMode()">Dark mode</button>
+<button onclick="lightMode()">Light mode</button>
 </html>
