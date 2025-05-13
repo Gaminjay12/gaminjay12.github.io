@@ -1,20 +1,24 @@
 <html id="background">
   <title>JS testing site</title>
 <script>
+function confirmLeaveTrue() {
+  alert("Not added yet!");
+}
 function test() {
   alert('Test!');
 }
 function darkMode() {
   document.getElementById('background').style.backgroundColor = '#7c7c7c';
-  document.getElementById('text').style.backgroundColor = 'white';
+  document.getElementById('text').style.color = 'white';
 }
 function lightMode() {
   document.getElementById('background').style.backgroundColor = 'white';
-  document.getElementById('text').style.backgroundColor = 'black';
+  document.getElementById('text').style.color = 'black';
 }
 </script>
 <button onclick="test()">Alert</button>
 <button onclick="darkMode()">Gray BG</button>
 <button onclick="lightMode()">White BG</button>
+<button oncick="confirmLeaveTrue()">Set confirm leave dialog to true</button>
 <p id="text">Test!</p>
 </html>
