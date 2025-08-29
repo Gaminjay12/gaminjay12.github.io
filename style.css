@@ -1,119 +1,26 @@
-.button {
-	width:200px;
-	height:40px;
-	padding:5;
-	border-radius:25px;
-	background:blue;
-	border-width:3px;
-	border-style:solid;
-	animation-name:unhover-fade;
-	animation-duration:0.3s;
-	animation-fill-mode:forwards;
-	position:absolute;
-	top:60%
+.icon {
+	width: 64px;
+	height: 64px;
 }
-
-.button-home1 {
-	width:150px;
-	height:19px;
-	top:60%;
-	left:15%;
-	border:solid;
-	border-width:2px;
-	border-color:black;
-	border-radius:20px;
-	background:transparent;
-	padding:5px;
-	position:absolute;
-	animation-name:unhover-fade;
-	animation-duration:0.3s;
-	animation-fill-mode:forwards
+.window {
+	height: 500px;
+	width: 500px;
+	background-color: darkgray;
+	color: white;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0
 }
-
-.button-home1 a {
-	display:block
+.header {
+	color: white;
+	background-color: blue;
+	user-select: none;
+	position: absolute;
+	width: 100%;
+	height: 20px
 }
-
-a {
-	color:black;
-	font-family:verdana;
-	text-align: center;
-}
-
-aa {
-	color:white;
-	text-align:center;
-	display:block
-}
-html {
-	background:gray
-}
-
-@keyframes hover-fade {
-	from {background:blue;}
-	to {background:#57b9ff;}
-}
-
-.button:hover {
-	animation-name:hover-fade;
-	animation-duration:0.3s;
-	animation-fill-mode:forwards;
-}
-
-@keyframes unhover-fade {
-	from {background:blue;}
-	to {background:transparent}
-}
-
-.button a {
-	width:200px;
-	height:40px;
-	display:inline-block;
-}
-
-@keyframes home-fadein {
-	from {background:transparent}
-	to {background:blue}
-}
-
-.button-home1:hover {
-	animation-name:home-fadein;
-	animation-duration:0.3s;
-	animation-fill-mode:forwards;
-}
-
-.title {
-	font-size:20px;
-	color:white;
-}
-
-.game {
-	border:2px solid black;
-	border-radius:10px;
-	width:60;
-	height:60;
-	animation-name:game-unfade;
-	animation-duration:0.3s;
-	animation-fill-mode:forwards;
-}
-
-@keyframes game-fade {
-	from {width:60;height:60}
-	to {width:70;height:70;}
-}
-
-.game:hover {
-	animation-name:game-fade;
-	animation-duration:0.3s;
-	animation-fill-mode:forwards
-}
-
-@keyframes game-unfade {
-	from {width:70;height:70;}
-	to {width:60;height:60}
-}
-
-.game-a {
-	position:absolute;
-	top:30;
+.browser {
+	user-select: none;
+	display: none;
 }
