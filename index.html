@@ -1,16 +1,29 @@
+
+<!DOCTYPE html>
 <html>
-	<link rel="stylesheet" href="style.css">
-	<img src="assets/images/chrome.png" onclick="Browser()" class="icon"></img>
-	<div class="window">
-		<div class="header">Drag this</div>
-		<div class="content">Content</div>
+<head>
+    <title>Jay's site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="assets/images/file.png" onclick="Games()" class="icon"><br>Games
+
+    <div class="window">
+        <div class="header">Drag this</div>
+        <div class="content">Content</div>
+    </div>
+
+    <div class="window browser" id="fileexplorer">
+        <div class="header">File Explorer</div>
+        <div class="content">
+		<a href="assets/games/fnf"><img src="assets/images/fnf.png" class="icon"></a>
+		<a href="assets/games/eaglercraft" class="icon"><img src="assets/images/eaglercraft.png"></a>
 	</div>
-	<div class="window browser">
-		<div class="header" id="browser">Browser</div>
-		<div class="content">
-			<iframe src="https://google.com"></iframe>
-		</div>
-	</div>
-	<h2 onclick="toggleBrowser()">Toggle</h2>
-	<script src="script.js"></script>
+    </div>
+
+    <h2 onclick="toggleBrowser()" style="user-select: none">Toggle</h2>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
