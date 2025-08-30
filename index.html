@@ -4,9 +4,11 @@
 <head>
     <title>Jay's site</title>
     <link rel="stylesheet" href="style.css">
+    <style>@import "https://nerdfonts.com/assets/css/webfont.css"</style>
+
 </head>
 <body>
-    <img src="assets/images/file.png" onclick="Games()" class="icon"><br>Games
+	<i class="nf nf-fa-folder" onclick="Games()" style="font-size: 100px"></i><br>Games
 
     <div class="window">
         <div class="header">Drag this</div>
@@ -14,7 +16,7 @@
     </div>
 
     <div class="window browser" id="fileexplorer">
-        <div class="header">File Explorer</div>
+	    <div class="header"><i style="color: white"class="nf nf-fa-folder"></i>File Explorer: Games</div>
         <div class="content">
 		<a href="assets/games/fnf"><img src="assets/images/fnf.png" class="icon"></a>
 		<a href="assets/games/eaglercraft" class="icon"><img src="assets/images/eaglercraft.png"></a>
@@ -24,6 +26,7 @@
     <h2 onclick="toggleBrowser()" style="user-select: none">Toggle</h2>
 
     <script src="script.js"></script>
+        I really <i class="nf nf-fa-heart"></i> <i class="nf nf-custom-vim"></i>
 </body>
 </html>
 
